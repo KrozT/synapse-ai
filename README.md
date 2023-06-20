@@ -155,7 +155,7 @@ Work in progress, no image for now.
    ```
 3. Install packages
    ```sh
-   yarn install
+   pnpm install
    ```
 4. Add OpenAI API Key to your environment variables
    ```dotenv
@@ -183,7 +183,7 @@ Work in progress, no image for now.
 
 7. Build project
    ```sh
-   yarn run build
+   pnpm run build
    ```
 
 
