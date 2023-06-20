@@ -3,6 +3,10 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
+    "types": [
+      "@types/node",
+      "@types/dom-speech-recognition"
+    ],
     "paths": {
       "@/*": ["./src/*"]
     },
