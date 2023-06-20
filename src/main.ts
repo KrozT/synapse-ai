@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import App from '@/App.vue';
 import router from '@/router';
 import pinia from '@/stores';
+import i18n from '@/i18n';
 
 /**
  * Create the Vue app instance.
@@ -17,6 +18,11 @@ app.use(router);
  * Mount the Pinia store to the app.
  */
 app.use(pinia);
+
+/**
+ * Mount the Vue i18n to the app.
+ */
+app.use(i18n);
 
 /**
  * Mount the app to the DOM.

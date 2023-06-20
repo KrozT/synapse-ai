@@ -162,10 +162,11 @@ Work in progress, no image for now.
    # OpenAI API Key
    SYNAPSE_OPENAI_API_KEY=<YOUR API KEY>
    ```
-5. Define the application name on the environment variables (Optional)
+5. Define the application and the company name on the environment variables (Optional)
    ```dotenv
    # Application Name
    SYNAPSE_APP_NAME=<YOUR APP NAME>
+   SYNAPSE_COMPANY_NAME=<YOUR COMPANY NAME>
    ```
 6. Add Firebase configuration to your environment variables (Recommended)
    ```dotenv
@@ -234,11 +235,11 @@ You can add new languages to the project by following these steps:
 - [x] User Interface
   - [x] Responsive
   - [x] Mobile-friendly
-  - [ ] Automatic language detection (based on browser language)
+  - [x] Automatic language detection (based on browser language)
   - [x] Dark mode
-- [ ] Internationalization
-  - [ ] English (United States)
-  - [ ] Spanish (Chile)
+- [x] Internationalization
+  - [x] English (United States)
+  - [x] Spanish (Chile)
 
 See the [open issues](https://github.com/KrozT/synapse-ai/issues) for a full list of proposed features (and known issues).
 
