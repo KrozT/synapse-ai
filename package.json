@@ -23,6 +23,7 @@
     "daisyui": "^3.1.1",
     "firebase": "^9.22.2",
     "pinia": "^2.1.4",
+    "pinia-plugin-persistedstate": "^3.1.0",
     "theme-change": "^2.5.0",
     "vue": "^3.3.4",
     "vue-i18n": "^9.2.2",

@@ -130,6 +130,7 @@ Work in progress, no image for now.
 - [daysiui](https://github.com/saadeghi/daisyui)
 - [firebase](https://github.com/firebase/firebase-js-sdk)
 - [pinia](https://github.com/vuejs/pinia)
+- [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate)
 - [theme-change](https://github.com/saadeghi/theme-change)
 - [vue](https://github.com/vuejs/core)
 - [vue-i18n](https://github.com/intlify/vue-i18n-next)
