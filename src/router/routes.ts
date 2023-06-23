@@ -6,9 +6,9 @@ const routes: RouteRecordRaw[] = [
     component: () => import('@/layouts/MainLayout.vue'),
     children: [
       {
-        path: '',
-        name: 'home-view',
-        component: () => import('@/views/HomeView.vue'),
+        path: '/',
+        name: 'login-view',
+        component: () => import('@/views/LoginView.vue'),
       },
       {
         path: 'chat',
