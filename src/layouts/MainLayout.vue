@@ -23,7 +23,7 @@ platformStore.definePlatform(appName, companyName);
     <!-- Navbar -->
     <nav-bar :app-name="appName" />
     <!-- Main content -->
-    <router-view class="flex-auto my-6 overflow-hidden" />
+    <router-view class="flex-auto my-6" />
     <!-- Footer -->
     <footer-component :company-name="companyName" />
   </div>
