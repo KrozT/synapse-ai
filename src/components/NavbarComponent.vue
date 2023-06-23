@@ -10,7 +10,7 @@ defineProps({
 });
 
 const userStore = useUserStore();
-const { name, profilePicture } = storeToRefs(userStore);
+const { profilePicture } = storeToRefs(userStore);
 
 userStore.login({
   id: 1,
@@ -22,20 +22,18 @@ userStore.login({
 <template>
   <div class="navbar bg-base-300 rounded-box">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">
-        <div class="font-title inline-flex
-         text-lg transition-all duration-200 md:text-xl">
+      <a class="btn btn-ghost normal-case">
+        <div class="font-title inline-flex text-lg md:text-2xl">
           <span class="capitalize">{{ appName }}</span>
-          <span class="text-base-content uppercase text-primary">AI</span>
+          <span class="uppercase text-primary">AI</span>
         </div>
       </a>
     </div>
-    <div class="flex-none">
+    <div class="flex-none z-10">
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-          <div class="w-10 rounded-full">
-            <img :src="profilePicture" />
-          </div>
+          <input type="image" :src="profilePicture" alt="Profile Picture"
+                 class="w-10 rounded-full" />
         </label>
         <ul tabindex="0"
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-300 rounded-box w-52">
